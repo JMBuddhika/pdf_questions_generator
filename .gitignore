@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.dist/
+.build/
+
+# Virtual envs & tooling
+.venv/
+.env            # secrets file – do NOT commit
+*.lock         # keep uv.lock BELOW (we’ll re-allow it)
+!.gitignore
+
+# IDEs
+.idea/
+.vscode/
+
+# Caches
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS noise
+.DS_Store
+Thumbs.db
+.env 

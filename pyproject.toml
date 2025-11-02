@@ -1,0 +1,16 @@
+[project]
+name = "pdf-question-generator"
+version = "0.1.0"
+description = "Streamlit app: PDF → MCQ / Active Recall / Closure (Ollama qwen2.5:1.5b)"
+requires-python = ">=3.11"
+dependencies = [
+  "streamlit==1.39.0",
+  "pypdf==5.1.0",
+  "requests==2.32.3",
+  "reportlab==4.2.5",
+  "dotenv>=0.9.9",
+  "groq>=0.33.0",
+]
+
+[tool.uv]
+package = false
