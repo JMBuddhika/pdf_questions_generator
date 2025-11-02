@@ -2,8 +2,8 @@
 
 ![alt text](image.png)
 
-Stremlit App Link - https://pdfquestionsgenerator-mvysmsc9lzyat3vumbelyd.streamlit.app/
- 
+Streamlit App Link - https://pdfquestionsgenerator-mvysmsc9lzyat3vumbelyd.streamlit.app/
+
 Generate high-quality **MCQ**, **Active Recall**, and **Closure (cloze/fill-in-the-blank)** questions directly from a PDF.
 Built with **Streamlit**, uses **Groq**’s `llama-3.3-70b-versatile` (fixed) under the hood, and exports to **PDF**.
 
